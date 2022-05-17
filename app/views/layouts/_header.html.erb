@@ -1,0 +1,40 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="/"><span>ながの CAKE</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="d-flex flex-column ml-auto">
+          <div class="d-flex px-2">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-4 py-2">
+                <%= link_to "About", "#", class: 'btn btn-outline-dark' %>
+              </li>
+              <li class="nav-item pl-4 py-2">
+                <%= link_to "商品一覧", "#", class: 'btn btn-outline-dark' %>
+              </li>
+              <li class="nav-item pl-4 py-2">
+                <%= link_to "新規登録", "#", class: 'btn btn-outline-dark' %>
+              </li>
+              <li class="nav-item pl-4 py-2">
+                <%= link_to "ログイン", "#", class: 'btn btn-outline-dark' %>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-end">
+          <div class="input-group col-6 p-2">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit">
+                <i class="fal fa-search"></i>
+              </button>
+            </span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
